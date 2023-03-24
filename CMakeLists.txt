@@ -3,7 +3,7 @@ project(bytetrack-opencv-cpp)
 #set(CMAKE_CXX_STANDARD 11)
 
 #opencv
-set(OpenCV_DIR /home/zhaoming/workspace-cpp/opencv4.6/install/lib/cmake/opencv4)
+set(OpenCV_DIR /home/*/workspace-cpp/opencv4.6/install/lib/cmake/opencv4)
 find_package(OpenCV REQUIRED)
 
 include_directories(${OPENCV_INLCUDE_DIR})
